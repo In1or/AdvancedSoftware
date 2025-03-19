@@ -30,13 +30,9 @@ twitter_username: jekyllrb
 github_username: jekyll
 
 # Build settings
-remote_theme: jekyll/minima
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
-minima:
-  skin: light # Используйте 'light' для белой темы
-
 exclude:
   - vendor/
   - vendor/bundle/
