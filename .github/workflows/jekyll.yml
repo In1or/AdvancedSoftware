@@ -42,6 +42,7 @@ jobs:
 
         working-directory: ./cv-site # Выполняем сборку в cv-site
       - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./cv-site/_site
           name: cv-site
